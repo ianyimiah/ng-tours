@@ -1,0 +1,35 @@
+[debug] [2018-08-01T04:32:26.892Z] ----------------------------------------------------------------------
+[debug] [2018-08-01T04:32:26.895Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ianyimiah\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-08-01T04:32:26.895Z] CLI Version:   3.19.1
+[debug] [2018-08-01T04:32:26.895Z] Platform:      win32
+[debug] [2018-08-01T04:32:26.895Z] Node Version:  v8.10.0
+[debug] [2018-08-01T04:32:26.895Z] Time:          Wed Aug 01 2018 04:32:26 GMT+0000 (Greenwich Standard Time)
+[debug] [2018-08-01T04:32:26.895Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-01T04:32:26.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-01T04:32:26.916Z] > authorizing via signed-in user
+[debug] [2018-08-01T04:32:26.918Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-01T04:32:26.919Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/hF8ILUskQCi8GZk_U83bH0JixJWT7zWBj279HVXKugU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 01 2018 04:32:26 GMT+0000 (Greenwich Standard Time)
+[debug] [2018-08-01T04:32:27.559Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-01T04:32:27.639Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tours-proj  
+  
+ Wed Aug 01 2018 04:32:27 GMT+0000 (Greenwich Standard Time)
+[debug] [2018-08-01T04:32:29.487Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-01T04:32:29.489Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tours-proj/tokens  
+  
+ Wed Aug 01 2018 04:32:29 GMT+0000 (Greenwich Standard Time)
+[debug] [2018-08-01T04:32:30.324Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'tours-proj'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-08-01T04:32:34.814Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/tours-proj/uploads/-LInlv0mQRQKDqGkMkiH?fileCount=40&message=  
+  
+ Wed Aug 01 2018 04:32:34 GMT+0000 (Greenwich Standard Time)
